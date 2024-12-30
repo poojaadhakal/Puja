@@ -1,0 +1,259 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+ 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link 
+        href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Julius+Sans+One&family=Poppins:wght@300;700&family=Sarala&family=Sora:wght@200&display=swap" 
+        rel="stylesheet"> 
+    <title>Personal Portfolio</title> 
+</head> 
+<style> 
+    * { 
+        margin: 0; 
+        padding: 0; 
+    } 
+ 
+    body { 
+        background-color: rgb(40, 12, 60); 
+        color: white; 
+        font-family: 'Poppins', sans-serif; 
+    } 
+ 
+    nav { 
+        display: flex; 
+        justify-content: space-around; 
+        align-items: center; 
+        height: 3rem; 
+        background-color: rgb(57, 2, 94); 
+ 
+    } 
+ 
+    @media(max-width:300px) { 
+nav ul{ 
+    display: flex; 
+    background-color: red; 
+    width: 200%; 
+} 
+         
+    } 
+ 
+    nav ul { 
+        display: flex; 
+        justify-content: center; 
+ 
+ 
+    } 
+ 
+    nav ul li { 
+        list-style: none; 
+        margin: 0px 20px; 
+        text-decoration: none; 
+ 
+    } 
+ 
+    .leftnav { 
+        font-size: 1.5em; 
+    } 
+ 
+    .rightnav a { 
+        text-decoration: none; 
+        color: white; 
+         
+         
+    } 
+ 
+    .rightnav a:hover { 
+        color: rgb(255, 198, 123); 
+         
+        font-size: 16.5px; 
+    } 
+ 
+    main { 
+        display: flex; 
+        justify-content: space-evenly; 
+        align-items: center; 
+         
+ 
+    } 
+ 
+    .left_place { 
+         
+        width: 25rem; 
+        font-size: 2rem; 
+    } 
+ 
+    .right_place { 
+       
+        width: 40rem; 
+        margin-left: 100px; 
+        margin-top: 80px; 
+         
+    } 
+    .left_place div{ 
+        color:rgb(0, 225, 255) ; 
+        font-size: 2rem; 
+    } 
+    .name{ 
+        color: rgb(194, 52, 194); 
+    } 
+    .text_first{ 
+        color: gray; 
+    } 
+    .line hr{ 
+        border: 0px; 
+        background: rgb(16, 92, 102); 
+        height: 0.1rem; 
+        margin:4rem 5rem 0 5rem; 
+    } 
+     
+    .first_section{ 
+        max-width: 80vw; 
+        margin: auto; 
+        margin-top: 2rem; 
+         
+    } 
+    .first_splace{ 
+        margin-top: 2rem; 
+    } 
+    .box{ 
+        background: white; 
+        width: 74vw; 
+        height: 1px; 
+        margin: 50px 0; 
+        display: flex; 
+    } 
+    .vertical{ 
+        background: rgb(188, 188, 188); 
+        width: 1px; 
+        height: 80px; 
+        margin: 0 100px ; 
+        
+    } 
+    .image_first{ 
+        width: 20px; 
+        position: relative; 
+        top: -25px; 
+        right: 6px; 
+    } 
+    .vertical_title{ 
+        position: relative; 
+        top: 50px; 
+        width: 120px; 
+        font-size: 15px; 
+ 
+    } 
+    .vertical_text{ 
+        position: relative; 
+        top: 50px; 
+        width: 120px; 
+        font-size: 10px; 
+        color: gray; 
+    } 
+    .footer_me{ 
+        background-color: rgb(28, 1, 46); 
+        height: 250px; 
+        position: relative; 
+        top: 250px; 
+        display: flex; 
+        justify-content:space-around; 
+        align-items: center; 
+    
+         
+    } 
+   
+    .f_first{ 
+         
+        justify-content:space-around; 
+        align-items: center; 
+         
+    } 
+    .f_second{ 
+        justify-content:space-around; 
+        align-items: center; 
+    } 
+    .last_footer{ 
+        background-color: rgb(16, 1, 16); 
+        color: aliceblue; 
+        position: relative; 
+        top: 250px; 
+        padding: 5px; 
+        text-align: center; 
+    } 
+ 
+</style> 
+ 
+<body> 
+    <header> 
+        <nav> 
+            <div class="leftnav">Pooja's Portfolio</div> 
+            <div class="rightnav"> 
+                <ul> 
+                    
+                         <li> <a href="file:///C:/Personal_website/index.html">Home</a></li> 
+                         <li> <a
+href="file:///C:/Personal_website/about.html">About</a></li>  
+                         <li> <a href="file:///C:/Personal_website/services.html">Services</a></li> 
+                         <li> <a href="file:///C:/Personal_website/project.html">Project</a></li>                
+                        <li> <a href="file:///C:/Personal_website/contactme.html">Contact me</a></li> 
+ 
+                </ul> 
+            </div> 
+        </nav> 
+    </header> 
+    <main> 
+        <div class="left_place"> 
+            Hi! My name is <span class="name">Pooja.</span> 
+            <br>I am passionate<div>UI/UXDesigner. 
+            </div> 
+        </div> 
+        <div class="right_place"> 
+            <img src="images/mylogo.png" alt="me"> 
+        </div> 
+         
+    </main> 
+    <div class="line"> 
+        <hr> 
+    </div> 
+    <section class="first_section"> 
+         
+    <div class="first_splaces"> 
+       <span class="text_first">What I have done so far</span> 
+       <h2>Work Skills</h2> 
+    </div> 
+    <div class="box"> 
+        <div class="vertical"> 
+            <img class="image_first" src="images/mylogo.png" alt="logo" > 
+            <div class="vertical_title">UI/UX Designer(2022-2024)</div> 
+            <div class="vertical_text">I am a UI/UX Designer since 2022 . I love playing with designs and creating something meaningful out of it.I have designed few website using Figma.</div> 
+        </div> 
+     
+       
+    </div> 
+</section> 
+ 
+    <div class="footer_me"> 
+        <div class="f_first">Pooja's Designer Portfolio</div> 
+         
+        <div class="f second"> 
+            About me<br> 
+            Phone:9761733734<br> 
+           Insta:@poojaadhakal <br> 
+           Mail:poojaadhakal@gmail.com 
+        </div> 
+     </div> 
+        
+         
+    </div> 
+<footer> 
+    <div class="last_footer"> 
+        &#169;Copyright-All right Reserved 
+    </div> 
+</footer> 
+</body> 
+ 
+</html>
